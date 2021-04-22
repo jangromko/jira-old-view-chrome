@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "Old Issue View for Jira",
+  "version": "1.0",
+
+  "description": "Enables old view for all tickets in Jira.",
+  "icons": {
+    "32": "icons/old-view-32.png",
+    "48": "icons/old-view-48.png",
+    "96": "icons/old-view-96.png",
+    "128": "icons/old-view-128.png"
+  },
+
+  "permissions": [
+    "*://*.atlassian.net/browse/*",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
