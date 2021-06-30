@@ -8,7 +8,8 @@ chrome.webRequest.onBeforeRequest.addListener(
   },
   {
     urls: [
-      "https://*.atlassian.net/browse/*"
+      "https://*.atlassian.net/browse/*",
+      "https://*.jira.com/browse/*"
     ]
   },
   ["blocking"]
